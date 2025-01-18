@@ -1,0 +1,301 @@
+
+==================================================
+Simulator Log File Header
+
+File Name                       : metadata.mdf
+CPU Scheduling                  : FCFS-N
+Quantum Cycles                  : 55
+Memory Available (KB)           : 12000
+Processor Cycle Rate (ms/cycle) : 10
+I/O Cycle Rate (ms/cycle)       : 20
+
+================
+Begin Simulation
+
+  0.000000, OS: Simulator start
+  0.000013, OS: Process 0 set to READY state from NEW state
+  0.000019, OS: Process 1 set to READY state from NEW state
+  0.000023, OS: Process 2 set to READY state from NEW state
+  0.000028, OS: Process 3 set to READY state from NEW state
+  0.000032, OS: Process 4 set to READY state from NEW state
+  0.000037, OS: Process 5 set to READY state from NEW state
+  0.000041, OS: Process 6 set to READY state from NEW state
+  0.000046, OS: Process 7 set to READY state from NEW state
+  0.000060, OS: Process 0 selected with 1650 ms remaining
+  0.000063, OS: Process 0 set from READY to RUNNING
+
+  0.000068, Process: 0, serial input operation start
+  0.720076, Process: 0, serial input operation end
+  0.720083, Process: 0, cpu process operation start
+  0.770087, Process: 0, cpu process operation end
+  0.770094, Process: 0, cpu process operation start
+  0.850098, Process: 0, cpu process operation end
+  0.850104, Process: 0, cpu process operation start
+  0.910108, Process: 0, cpu process operation end
+  0.910114, Process: 0, cpu process operation start
+  0.970118, Process: 0, cpu process operation end
+  0.970124, Process: 0, cpu process operation start
+  1.070128, Process: 0, cpu process operation end
+  1.070138, Process: 0, cpu process operation start
+  1.170142, Process: 0, cpu process operation end
+  1.170148, Process: 0, cpu process operation start
+  1.220152, Process: 0, cpu process operation end
+  1.220158, Process: 0, cpu process operation start
+  1.290162, Process: 0, cpu process operation end
+  1.290168, Process: 0, cpu process operation start
+  1.370172, Process: 0, cpu process operation end
+  1.370178, Process: 0, cpu process operation start
+  1.440182, Process: 0, cpu process operation end
+  1.440188, Process: 0, cpu process operation start
+  1.500194, Process: 0, cpu process operation end
+  1.500202, Process: 0, cpu process operation start
+  1.570207, Process: 0, cpu process operation end
+  1.570213, Process: 0, cpu process operation start
+  1.650218, Process: 0, cpu process operation end
+
+  1.650224, OS: Process 0 ended
+  1.650237, OS: Process 0 set to EXIT
+  1.650242, OS: Process 1 selected with 2320 ms remaining
+  1.650246, OS: Process 1 set from READY to RUNNING
+
+  1.650250, Process: 1, serial input operation start
+  2.130263, Process: 1, serial input operation end
+  2.130274, Process: 1, cpu process operation start
+  2.190279, Process: 1, cpu process operation end
+  2.190285, Process: 1, cpu process operation start
+  2.260289, Process: 1, cpu process operation end
+  2.260296, Process: 1, sound signal output operation start
+  3.260302, Process: 1, sound signal output operation end
+  3.260310, Process: 1, cpu process operation start
+  3.340314, Process: 1, cpu process operation end
+  3.340320, Process: 1, cpu process operation start
+  3.440325, Process: 1, cpu process operation end
+  3.440332, Process: 1, cpu process operation start
+  3.490336, Process: 1, cpu process operation end
+  3.490342, Process: 1, cpu process operation start
+  3.550347, Process: 1, cpu process operation end
+  3.550359, Process: 1, cpu process operation start
+  3.650363, Process: 1, cpu process operation end
+  3.650370, Process: 1, cpu process operation start
+  3.710374, Process: 1, cpu process operation end
+  3.710381, Process: 1, cpu process operation start
+  3.770385, Process: 1, cpu process operation end
+  3.770392, Process: 1, cpu process operation start
+  3.840396, Process: 1, cpu process operation end
+  3.840403, Process: 1, cpu process operation start
+  3.890407, Process: 1, cpu process operation end
+  3.890414, Process: 1, cpu process operation start
+  3.970418, Process: 1, cpu process operation end
+
+  3.970425, OS: Process 1 ended
+  3.970447, OS: Process 1 set to EXIT
+  3.970452, OS: Process 2 selected with 5170 ms remaining
+  3.970456, OS: Process 2 set from READY to RUNNING
+
+  3.970461, Process: 2, video signal input operation start
+  5.370473, Process: 2, video signal input operation end
+  5.370487, Process: 2, cpu process operation start
+  5.420491, Process: 2, cpu process operation end
+  5.420498, Process: 2, cpu process operation start
+  5.520503, Process: 2, cpu process operation end
+  5.520511, Process: 2, video signal output operation start
+  6.640517, Process: 2, video signal output operation end
+  6.640524, Process: 2, cpu process operation start
+  6.730528, Process: 2, cpu process operation end
+  6.730535, Process: 2, cpu process operation start
+  6.810540, Process: 2, cpu process operation end
+  6.810547, Process: 2, keyboard input operation start
+  8.610560, Process: 2, keyboard input operation end
+  8.610575, Process: 2, cpu process operation start
+  8.670580, Process: 2, cpu process operation end
+  8.670587, Process: 2, cpu process operation start
+  8.730592, Process: 2, cpu process operation end
+  8.730599, Process: 2, cpu process operation start
+  8.820603, Process: 2, cpu process operation end
+  8.820610, Process: 2, cpu process operation start
+  8.880618, Process: 2, cpu process operation end
+  8.880625, Process: 2, cpu process operation start
+  8.970630, Process: 2, cpu process operation end
+  8.970637, Process: 2, cpu process operation start
+  9.050642, Process: 2, cpu process operation end
+  9.050649, Process: 2, cpu process operation start
+  9.140655, Process: 2, cpu process operation end
+
+  9.140662, OS: Process 2 ended
+  9.140676, OS: Process 2 set to EXIT
+  9.140681, OS: Process 3 selected with 5140 ms remaining
+  9.140686, OS: Process 3 set from READY to RUNNING
+
+  9.140690, Process: 3, keyboard input operation start
+ 10.940698, Process: 3, keyboard input operation end
+ 10.940707, Process: 3, hard drive input operation start
+ 11.480713, Process: 3, hard drive input operation end
+ 11.480722, Process: 3, cpu process operation start
+ 11.540728, Process: 3, cpu process operation end
+ 11.540737, Process: 3, cpu process operation start
+ 11.620742, Process: 3, cpu process operation end
+ 11.620750, Process: 3, sound signal output operation start
+ 12.220756, Process: 3, sound signal output operation end
+ 12.220764, Process: 3, cpu process operation start
+ 12.320770, Process: 3, cpu process operation end
+ 12.320777, Process: 3, cpu process operation start
+ 12.410793, Process: 3, cpu process operation end
+ 12.410807, Process: 3, cpu process operation start
+ 12.460813, Process: 3, cpu process operation end
+ 12.460821, Process: 3, cpu process operation start
+ 12.510826, Process: 3, cpu process operation end
+ 12.510834, Process: 3, cpu process operation start
+ 12.590838, Process: 3, cpu process operation end
+ 12.590846, Process: 3, video signal output operation start
+ 13.990853, Process: 3, video signal output operation end
+ 13.990862, Process: 3, cpu process operation start
+ 14.090867, Process: 3, cpu process operation end
+ 14.090875, Process: 3, cpu process operation start
+ 14.180880, Process: 3, cpu process operation end
+ 14.180892, Process: 3, cpu process operation start
+ 14.280897, Process: 3, cpu process operation end
+
+ 14.280905, OS: Process 3 ended
+ 14.280919, OS: Process 3 set to EXIT
+ 14.280925, OS: Process 4 selected with 2980 ms remaining
+ 14.280930, OS: Process 4 set from READY to RUNNING
+
+ 14.280935, Process: 4, video signal input operation start
+ 15.260942, Process: 4, video signal input operation end
+ 15.260952, Process: 4, cpu process operation start
+ 15.360957, Process: 4, cpu process operation end
+ 15.360965, Process: 4, cpu process operation start
+ 15.410970, Process: 4, cpu process operation end
+ 15.410978, Process: 4, cpu process operation start
+ 15.480983, Process: 4, cpu process operation end
+ 15.480991, Process: 4, video signal output operation start
+ 16.600997, Process: 4, video signal output operation end
+ 16.601007, Process: 4, cpu process operation start
+ 16.681013, Process: 4, cpu process operation end
+ 16.681021, Process: 4, cpu process operation start
+ 16.741026, Process: 4, cpu process operation end
+ 16.741034, Process: 4, cpu process operation start
+ 16.801039, Process: 4, cpu process operation end
+ 16.801047, Process: 4, cpu process operation start
+ 16.881052, Process: 4, cpu process operation end
+ 16.881060, Process: 4, cpu process operation start
+ 16.951066, Process: 4, cpu process operation end
+ 16.951077, Process: 4, cpu process operation start
+ 17.021083, Process: 4, cpu process operation end
+ 17.021091, Process: 4, cpu process operation start
+ 17.111097, Process: 4, cpu process operation end
+ 17.111105, Process: 4, cpu process operation start
+ 17.171111, Process: 4, cpu process operation end
+ 17.171119, Process: 4, cpu process operation start
+ 17.261125, Process: 4, cpu process operation end
+
+ 17.261133, OS: Process 4 ended
+ 17.261147, OS: Process 4 set to EXIT
+ 17.261157, OS: Process 5 selected with 4490 ms remaining
+ 17.261162, OS: Process 5 set from READY to RUNNING
+
+ 17.261168, Process: 5, video signal input operation start
+ 18.521176, Process: 5, video signal input operation end
+ 18.521185, Process: 5, cpu process operation start
+ 18.621191, Process: 5, cpu process operation end
+ 18.621200, Process: 5, video signal input operation start
+ 19.601207, Process: 5, video signal input operation end
+ 19.601217, Process: 5, keyboard input operation start
+ 21.001230, Process: 5, keyboard input operation end
+ 21.001250, Process: 5, cpu process operation start
+ 21.091256, Process: 5, cpu process operation end
+ 21.091265, Process: 5, cpu process operation start
+ 21.171270, Process: 5, cpu process operation end
+ 21.171279, Process: 5, cpu process operation start
+ 21.221285, Process: 5, cpu process operation end
+ 21.221293, Process: 5, cpu process operation start
+ 21.301299, Process: 5, cpu process operation end
+ 21.301308, Process: 5, cpu process operation start
+ 21.381313, Process: 5, cpu process operation end
+ 21.381322, Process: 5, cpu process operation start
+ 21.441327, Process: 5, cpu process operation end
+ 21.441335, Process: 5, cpu process operation start
+ 21.531342, Process: 5, cpu process operation end
+ 21.531352, Process: 5, cpu process operation start
+ 21.621358, Process: 5, cpu process operation end
+ 21.621367, Process: 5, cpu process operation start
+ 21.671372, Process: 5, cpu process operation end
+ 21.671381, Process: 5, cpu process operation start
+ 21.751387, Process: 5, cpu process operation end
+
+ 21.751395, OS: Process 5 ended
+ 21.751410, OS: Process 5 set to EXIT
+ 21.751416, OS: Process 6 selected with 3240 ms remaining
+ 21.751422, OS: Process 6 set from READY to RUNNING
+
+ 21.751428, Process: 6, sound signal input operation start
+ 22.651435, Process: 6, sound signal input operation end
+ 22.651444, Process: 6, cpu process operation start
+ 22.731455, Process: 6, cpu process operation end
+ 22.731464, Process: 6, cpu process operation start
+ 22.811472, Process: 6, cpu process operation end
+ 22.811483, Process: 6, cpu process operation start
+ 22.911490, Process: 6, cpu process operation end
+ 22.911498, Process: 6, cpu process operation start
+ 22.971505, Process: 6, cpu process operation end
+ 22.971514, Process: 6, cpu process operation start
+ 23.041521, Process: 6, cpu process operation end
+ 23.041529, Process: 6, cpu process operation start
+ 23.141536, Process: 6, cpu process operation end
+ 23.141545, Process: 6, cpu process operation start
+ 23.211551, Process: 6, cpu process operation end
+ 23.211560, Process: 6, cpu process operation start
+ 23.301566, Process: 6, cpu process operation end
+ 23.301575, Process: 6, cpu process operation start
+ 23.361581, Process: 6, cpu process operation end
+ 23.361590, Process: 6, cpu process operation start
+ 23.451596, Process: 6, cpu process operation end
+ 23.451605, Process: 6, cpu process operation start
+ 23.511611, Process: 6, cpu process operation end
+ 23.511620, Process: 6, video signal output operation start
+ 24.911626, Process: 6, video signal output operation end
+ 24.911636, Process: 6, cpu process operation start
+ 24.991642, Process: 6, cpu process operation end
+
+ 24.991652, OS: Process 6 ended
+ 24.991667, OS: Process 6 set to EXIT
+ 24.991673, OS: Process 7 selected with 3350 ms remaining
+ 24.991679, OS: Process 7 set from READY to RUNNING
+
+ 24.991685, Process: 7, hard drive input operation start
+ 25.411693, Process: 7, hard drive input operation end
+ 25.411703, Process: 7, monitor output operation start
+ 27.411710, Process: 7, monitor output operation end
+ 27.411721, Process: 7, cpu process operation start
+ 27.481727, Process: 7, cpu process operation end
+ 27.481737, Process: 7, cpu process operation start
+ 27.571751, Process: 7, cpu process operation end
+ 27.571760, Process: 7, cpu process operation start
+ 27.661766, Process: 7, cpu process operation end
+ 27.661779, Process: 7, cpu process operation start
+ 27.761796, Process: 7, cpu process operation end
+ 27.761807, Process: 7, cpu process operation start
+ 27.811814, Process: 7, cpu process operation end
+ 27.811824, Process: 7, cpu process operation start
+ 27.881830, Process: 7, cpu process operation end
+ 27.881839, Process: 7, cpu process operation start
+ 27.931845, Process: 7, cpu process operation end
+ 27.931855, Process: 7, cpu process operation start
+ 28.021861, Process: 7, cpu process operation end
+ 28.021871, Process: 7, cpu process operation start
+ 28.111877, Process: 7, cpu process operation end
+ 28.111887, Process: 7, cpu process operation start
+ 28.181893, Process: 7, cpu process operation end
+ 28.181903, Process: 7, cpu process operation start
+ 28.271909, Process: 7, cpu process operation end
+ 28.271919, Process: 7, cpu process operation start
+ 28.341925, Process: 7, cpu process operation end
+
+ 28.341934, OS: Process 7 ended
+ 28.341950, OS: Process 7 set to EXIT
+ 28.341955, OS: System stop
+ 28.341968, OS: Simulation end
+
+End Simulation - Complete
+=========================
+

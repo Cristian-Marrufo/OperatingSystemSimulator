@@ -1,0 +1,133 @@
+Start Program Meta-Data Code:
+sys start
+app start, 0
+dev in, serial, 36
+cpu process, 5
+cpu process, 8
+cpu process, 6
+cpu process, 6
+cpu process, 10
+cpu process, 10
+cpu process, 5
+cpu process, 7
+cpu process, 8
+cpu process, 7
+cpu process, 6
+cpu process, 7
+cpu process, 8
+app end
+app start, 0
+dev in, serial, 24
+cpu process, 6
+cpu process, 7
+dev out, sound signal, 50
+cpu process, 8
+cpu process, 10
+cpu process, 5
+cpu process, 6
+cpu process, 10
+cpu process, 6
+cpu process, 6
+cpu process, 7
+cpu process, 5
+cpu process, 8
+app end
+app start, 0
+dev in, video signal, 70
+cpu process, 5
+cpu process, 10
+dev out, video signal, 56
+cpu process, 9
+cpu process, 8
+dev in, keyboard, 90
+cpu process, 6
+cpu process, 6
+cpu process, 9
+cpu process, 6
+cpu process, 9
+cpu process, 8
+cpu process, 9
+app end
+app start, 0
+dev in, keyboard, 90
+dev in, hard drive, 27
+cpu process, 6
+cpu process, 8
+dev out, sound signal, 30
+cpu process, 10
+cpu process, 9
+cpu process, 5
+cpu process, 5
+cpu process, 8
+dev out, video signal, 70
+cpu process, 10
+cpu process, 9
+cpu process, 10
+app end
+app start, 0
+dev in, video signal, 49
+cpu process, 10
+cpu process, 5
+cpu process, 7
+dev out, video signal, 56
+cpu process, 8
+cpu process, 6
+cpu process, 6
+cpu process, 8
+cpu process, 7
+cpu process, 7
+cpu process, 9
+cpu process, 6
+cpu process, 9
+app end
+app start, 0
+dev in, video signal, 63
+cpu process, 10
+dev in, video signal, 49
+dev in, keyboard, 70
+cpu process, 9
+cpu process, 8
+cpu process, 5
+cpu process, 8
+cpu process, 8
+cpu process, 6
+cpu process, 9
+cpu process, 9
+cpu process, 5
+cpu process, 8
+app end
+app start, 0
+dev in, sound signal, 45
+cpu process, 8
+cpu process, 8
+cpu process, 10
+cpu process, 6
+cpu process, 7
+cpu process, 10
+cpu process, 7
+cpu process, 9
+cpu process, 6
+cpu process, 9
+cpu process, 6
+dev out, video signal, 70
+cpu process, 8
+app end
+app start, 0
+dev in, hard drive, 21
+dev out, monitor, 100
+cpu process, 7
+cpu process, 9
+cpu process, 9
+cpu process, 10
+cpu process, 5
+cpu process, 7
+cpu process, 5
+cpu process, 9
+cpu process, 9
+cpu process, 7
+cpu process, 9
+cpu process, 7
+app end
+sys end
+End Program Meta-Data Code.
+

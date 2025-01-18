@@ -1,0 +1,65 @@
+Start Program Meta-Data Code:
+sys start
+app start, 0
+dev in, sound signal, 25
+cpu process, 5
+app end
+app start, 0
+dev in, serial, 36
+dev out, video signal, 42
+app end
+app start, 0
+dev in, video signal, 35
+cpu process, 10
+app end
+app start, 0
+dev in, serial, 36
+cpu process, 7
+app end
+app start, 0
+dev in, serial, 24
+dev in, usb, 20
+app end
+app start, 0
+dev in, usb, 14
+cpu process, 8
+app end
+app start, 0
+dev in, video signal, 35
+cpu process, 6
+app end
+app start, 0
+dev in, serial, 40
+cpu process, 6
+app end
+app start, 0
+dev in, hard drive, 24
+dev out, monitor, 60
+app end
+app start, 0
+dev in, hard drive, 21
+cpu process, 5
+app end
+app start, 0
+dev in, hard drive, 21
+cpu process, 7
+app end
+app start, 0
+dev in, usb, 20
+cpu process, 8
+app end
+app start, 0
+dev in, hard drive, 18
+cpu process, 5
+app end
+app start, 0
+dev in, serial, 28
+cpu process, 9
+app end
+app start, 0
+dev in, sound signal, 25
+dev out, monitor, 90
+app end
+sys end
+End Program Meta-Data Code.
+
